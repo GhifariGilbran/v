@@ -1,0 +1,94 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.div-navbar {
+  background-color: green;
+  width: 100%;
+  height: 10vh;
+}
+
+.ul-navbar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.li-navbar {
+  list-style: none;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.li-navbar:hover {
+  background-color: black;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.2s;
+  border-radius: 10px;
+}
+
+/* IMAGES */
+
+.div-content{
+  background-color: lightblue;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-content {
+  width: 350px;
+  height: auto;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* TENTANG */
+.div-tentang {
+  background-color: blue;
+}
+
+.ul-tentang {
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.li-tentang {
+list-style:none;
+font-size: 20px;
+color: white;
+}
+
+/* IMAGES 2 */
+
+.div-tentang-dua {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-tentang {
+  width: 80%;
+  height: auto;
+}
